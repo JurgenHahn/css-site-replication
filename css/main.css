@@ -1,0 +1,154 @@
+* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background-color: #EFEFEF;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  background: #fff url("../images/bgtile.png") repeat-x;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+p, h2, h3{
+  margin:0;
+}
+
+p {
+  margin-bottom: 10px;
+}
+h2 {
+  margin-bottom: 15px;
+  color: #06365f;
+}
+
+span {
+  font-weight: bold;
+}
+.container {
+  width: 890px;
+  margin: 90px auto 0;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.iphone {
+  float: left;
+  margin-top: 12px;
+  width: 35%;
+}
+
+.info {
+  float: right;
+  width: 58%;
+  margin-top: 12px;
+}
+
+.brand {
+  float: left;
+}
+
+.btn {
+  border: 1px solid #06365f;
+  border-radius: 2px;
+  float: left;
+  color: white;
+  padding: 5px;
+  margin: 19px 19px 19px 71px;
+  background: linear-gradient(#ffffff, #06365f);
+}
+
+.btn-content {
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.home {
+  padding-top: 2px;
+}
+.text {
+  float: left;
+  background: url("../images/frame.png") no-repeat;
+  padding: 40px;
+  width: 424px;
+}
+
+.badge {
+  float:left;
+  margin-left: 3%;
+}
+
+footer {
+  clear: both;
+  width: 100%;
+  text-align: center;
+}
+
+li  {
+  display:inline-block;
+
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 10px
+}
+
+.footer-text {
+  color: #1c5380;
+}
+
+.copyright {
+  color: lightgrey;
+}
